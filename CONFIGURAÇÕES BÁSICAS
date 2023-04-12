@@ -1,0 +1,11 @@
+##########COMANDOS DE CONFIGURAÇÃO BÁSICA DISPOSTIVOS CISCO-MODIFIQUE APENAS OS NOMES NAS PRÁTICAS ######
+enable
+configure terminal
+hostname SW2
+banner motd #
+Dispositivo: SW2
+Empresa: IFMA
+ACESSO RESTRITO!#
+exit
+copy running-config startup-config
+
