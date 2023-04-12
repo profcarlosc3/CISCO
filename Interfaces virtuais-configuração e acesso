@@ -1,1 +1,8 @@
-
+####CONSIDERAR MODO DE CONFIGURAÇÃO GLOBAL, FAZER PARA SWITCHS E ROTEADORES#######
+####MODIFICAR OS ENDEREÇOS DE IP##################
+interface vlan1
+ip address 192.168.1.2 255.255.255.0
+no shutdown
+line vty 0 15
+password aula
+login
