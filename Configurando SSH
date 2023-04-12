@@ -1,0 +1,10 @@
+################CONFIGURANDO O SSH#####################
+interface vlan 1
+ip domain-name ifma.edu.br
+crypto key generate rsa
+1024
+ip ssh version 2
+username admin password ifma123
+line vty 0 15
+login local
+transport input ssh
