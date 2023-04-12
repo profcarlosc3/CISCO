@@ -1,0 +1,7 @@
+enable
+configure terminal
+line console 0
+password ifma
+login
+exit
+enable secret aula
